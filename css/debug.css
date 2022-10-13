@@ -1,0 +1,10 @@
+.debug main{
+    background-color: green;
+}
+.debug header .row{
+    height: 4.375rem;
+}
+.debug header .col-1, .col-10 {
+    background-color: red;
+    border: 3px dashed white;
+}
