@@ -5,7 +5,7 @@
 @import url(main.css);
 
 body{
-    height: 100vh;
+   max-height: 100vh;
 }
 .ms-container-aside-main{
     height: calc(100vh - 4.375rem);

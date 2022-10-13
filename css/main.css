@@ -3,3 +3,9 @@ main{
     flex-grow: 1;
     overflow-y: auto;
 }
+/* sezione BOOLEAN */
+#ms-boolean{
+    background-color: #1c72e8;
+    padding-left: 1.25rem;
+    color: white;
+}
