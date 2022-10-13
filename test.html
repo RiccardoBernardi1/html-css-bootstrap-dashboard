@@ -10,9 +10,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <title>TEST</title>
+        <title>Test</title>
     </head>
-    <body class="debug">
+    <body>
         <header>           
             <div class="container-fluid">
                 <div class="row align-items-center">
@@ -75,6 +75,273 @@
                 </div>
             </div>
         </header>
+        <div class="ms-container-aside-main">
+            <aside>
+                <!-- contenuto aside -->
+                <div class="container-fluid py-4">
+                    <div class="row flex-column align-items-center">
+                        <!-- link visibili fino a md -->
+                        <ul class="ms-aside-list d-lg-none">
+                            <li>
+                                <a href="#">i</a>
+                            </li>
+                            <li>
+                                <a href="#">i</a>
+                            </li>
+                            <li>
+                                <a href="#">i</a>
+                            </li>
+                        </ul>
+                        <div class="ms-admin mt-auto d-lg-none">
+                            <a href="#">i</a>
+                        </div>
+                        <!-- /link visibili fino a md -->
+                        <!-- link visibili da lg in su -->
+                        <ul class="ms-aside-list d-none d-lg-block">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Stats</a>
+                            </li>
+                            <li>
+                                <a href="#">Signal</a>
+                            </li>
+                        </ul>
+                        <div class="ms-admin mt-auto d-none d-lg-block ">
+                            <a href="#">Admin</a>
+                        </div>
+                        <!-- /link visibili da lg in su -->
+                    </div>
+                </div>
+                <!-- /contenuto aside -->
+            </aside>
+            <main>
+                <!-- sezione BOOLEAN -->
+                <section id="ms-boolean" class="py-4">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- colonna sinistra -->
+                            <div class="col-12 col-lg-8">
+                                <h1 class="p-0 m-0 d-inline">Boolean</h1>
+                                <span class="badge rounded-pill text-bg-primary">Piano blaze</span>    
+                                <div>
+                                    <span class="badge rounded-pill text-bg-primary">3 app</span>
+                                    >>
+                                    <span class="badge rounded-pill text-bg-primary">+</span>
+                                </div>
+                            </div>
+                            <!-- /colonna sinistra -->
+                            <!-- colonna destra -->
+                            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                                <div>Studenti online negli ultimi 30 minuti</div>
+                                <div class="fs-4">125</div>
+                            </div>
+                            <!-- /colonna destra -->
+                        </div>
+                    </div>
+                </section>
+                <!-- /sezione BOOLEAN -->
+                <!-- sezioni centrali -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- colonna sinistra -->
+                        <div class="col-12 col-lg-8">
+                            <!-- sezione CLASSI -->
+                            <section id="ms-class" class="py-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="row">
+                                            <div class="col-10"><h2 class="fs-5">Prossime classi</h2></div>
+                                            <div class="col-2 text-center">
+                                                <button class="btn btn-outline-primary fs-4 px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Nome</th>
+                                                    <th scope="col">Data Inizio</th>
+                                                    <th scope="col"
+                                                    >ROI</th>
+                                                    <th scope="col">Stato</th>
+                                                    <th scope="col">Azioni</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Larry the Bird</td>
+                                                    <td>@twitter</td>
+                                                    <td>@twitter</td>
+                                                    <td>@twitter</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    <td>@twitter</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Larry the Bird</td>
+                                                    <td>@twitter</td>
+                                                    <td>@twitter</td>
+                                                    <td>@twitter</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    <td>@twitter</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                  </div>
+                            </section>
+                            <!-- /sezione CLASSI -->
+                            <!-- sezione FAQ -->
+                            <section id="ms-faq">
+                                <div class="card">
+                                    <div class="card-header">
+                                      <h2 class="fs-5">F.A.Q</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                  Accordion Item #1
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                  Accordion Item #2
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                  Accordion Item #3
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                            </section>
+                            <!-- /sezione FAQ -->
+                        </div>
+                        <!-- /colonna sinistra -->
+                        <!-- colonna destra -->
+                        <div class="col-12 col-lg-4">
+                            <!-- sezione TODO -->
+                            <section id="ms-todo" class="py-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                      <h2 class="fs-5">Todo</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <input type="checkbox" id="kickoff">
+                                                <label for="kickoff">Kickoff nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" id="kickoff">
+                                                <label for="kickoff">Kickoff nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" id="kickoff">
+                                                <label for="kickoff">Kickoff nuove classi</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                            </section>
+                            <!-- /sezione TODO -->
+                            <!-- sezione UTENTI ATTIVI -->
+                            <section id="active-users">
+                                <div class="card p-2" style="width: 100%;">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="img/stats.jpeg" class="card-img-top" alt="Grafico utenti attivi">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- /sezione UTENTI ATTIVI -->
+                        </div>
+                        <!-- /colonna destra -->
+                    </div>
+                </div>
+                <!-- /sezioni centrali -->
+            </main>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiungi Classe</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+            </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </body>
 </html>
