@@ -13,3 +13,7 @@ header .btn{
 header .row{
     height: 4.375rem;
 }
+.dropstart .dropdown-menu[data-bs-popper]{
+    right:-57%;
+    top: 2.5rem;
+}
