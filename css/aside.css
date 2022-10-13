@@ -4,3 +4,9 @@ aside{
     width: 4.375rem;
     height: 100%;
 }
+/* RESPONSIVE */
+@media screen and (min-width:992px) {
+    aside{
+        width: 16.875rem;
+    }
+}
