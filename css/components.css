@@ -1,7 +1,13 @@
 /* COMPONENTS */
+/* bottoni header */
 .ms-nav-btn:focus{
     border: 0px solid transparent;
 }
 .ms-nav-btn{
     color: #5a5858;
+}
+/* badge sezione boolean */
+.ms-badge{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
 }
