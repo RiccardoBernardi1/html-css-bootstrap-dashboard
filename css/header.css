@@ -17,3 +17,6 @@ header .row{
     right:-57%;
     top: 2.5rem;
 }
+.ms-logo-mobile{
+    max-height: 4.375rem;
+}
