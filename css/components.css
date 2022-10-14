@@ -14,8 +14,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 1rem;
 }
-/* bottoni tabella classi */
+/* bottoni e badge sezione classi */
 .ms-table-btn{
     font-size: .8125rem;
     max-width: 2.3125rem;
+}
+.ms-table-badge{
+    background-color: #ffc107;
 }
