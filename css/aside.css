@@ -1,7 +1,7 @@
 /* ASIDE */
 aside{
     background-color: #051e34;
-    width: 4.375rem;
+    width: auto;
     color: white;
     font-size: 1.5625rem;
     text-align: center;
@@ -18,12 +18,4 @@ aside .container-fluid{
 }
 aside .row{
     height: 100%;
-}
-/* RESPONSIVE */
-@media screen and (min-width:992px) {
-    aside{
-        width: 16.875rem;
-        padding-left: 2.5rem;
-        text-align: left;
-    }
 }

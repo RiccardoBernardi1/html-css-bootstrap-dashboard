@@ -1,5 +1,6 @@
 /* MAIN */
 main{
+    flex-grow: 1;
     overflow-y: auto;
 }
 /* sezione BOOLEAN */
@@ -11,10 +12,4 @@ main{
 /* sezione CLASSI */
 #ms-class th:first-child{
     padding-right: 5.625rem;
-}
-/* RESPONSIVE */
-@media screen and (min-width:992px) {
-    main{
-        width: calc(100% - 16.875rem);
-    }
 }
