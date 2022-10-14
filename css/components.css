@@ -1,1 +1,7 @@
 /* COMPONENTS */
+.ms-nav-btn:focus{
+    border: 0px solid transparent;
+}
+.ms-nav-btn{
+    color: #5a5858;
+}

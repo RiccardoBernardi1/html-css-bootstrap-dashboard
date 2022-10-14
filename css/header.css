@@ -7,16 +7,16 @@ header{
     right: 0;
     z-index: 100;
 }
-header .btn{
-    margin-right: -0.75rem;
-}
 header .row{
     height: 4.375rem;
 }
 .dropstart .dropdown-menu[data-bs-popper]{
-    right:-57%;
+    right:-10%;
     top: 2.5rem;
 }
 .ms-logo-mobile{
     max-height: 4.375rem;
+}
+.ms-bell{
+    color: #ff8f00;
 }
