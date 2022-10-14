@@ -336,11 +336,20 @@
         <!-- offcanvas -->
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiungi Classe</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                ...
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Nome">
+                </div>
+                <div class="mb-3">
+                    <label for="date" class="form-label">Data Inizio</label>
+                    <input type="date" class="form-control" id="date" placeholder="">          
+                </div>
+                <button class="btn btn-primary">Salva</button>
+                <button class="btn btn-warning">Reset</button>
             </div>
         </div>
         <!-- /offcanvas -->
