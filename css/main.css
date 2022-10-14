@@ -11,5 +11,8 @@ main{
 }
 /* sezione CLASSI */
 #ms-class th:first-child{
-    padding-right: 5.625rem;
+    width: auto;
+}
+#ms-class th:not(:first-child){
+    width: 6.25rem;
 }
