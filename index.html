@@ -31,7 +31,7 @@
                     </div>
                     <!-- /seconda colonna -->
                     <!-- terza colonna -->
-                    <div class="col-auto text-end ps-0">
+                    <div class="col-auto text-end px-0">
                         <nav class="navbar">
                             <button class="btn d-none d-lg-block ms-nav-btn">
                                 <i class="fa-solid fa-list"></i>
@@ -141,15 +141,16 @@
                             <section id="ms-class" class="py-4">
                                 <div class="card">
                                     <div class="card-header">
-                                        <div class="row">
+                                        <div class="row align-items-center">
                                             <div class="col"><h2 class="fs-5">Prossime classi</h2></div>
                                             <div class="col-auto text-end">
-                                                <button class="btn btn-outline-primary fs-4 px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                                <button class="btn btn-outline-primary fs-4 px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card-body">
                                         <table class="table">
+                                            <!-- table head -->
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Nome</th>
@@ -160,63 +161,144 @@
                                                     <th scope="col">Azioni</th>
                                                 </tr>
                                             </thead>
+                                            <!-- /table head -->
                                             <tbody>
+                                                <!-- prima riga -->
                                                 <tr>
-                                                    <th scope="row">1</th>
-                                                    <td class="d-none d-md-table-cell">Mark</td>
-                                                    <td class="d-none d-sm-table-cell">Otto</td>
-                                                    <td>@mdo</td>
-                                                    <td>@mdo</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 75</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">15/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-success">Done</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /prima riga -->
+                                                <!-- seconda riga -->
                                                 <tr>
-                                                    <th scope="row">2</th>
-                                                    <td class="d-none d-md-table-cell">Jacob</td>
-                                                    <td class="d-none d-sm-table-cell">Thornton</td>
-                                                    <td>@fat</td>
-                                                    <td>@mdo</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 76</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">16/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-success">Done</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /seconda riga -->
+                                                <!-- terza riga -->
                                                 <tr>
-                                                    <th scope="row">3</th>
-                                                    <td class="d-none d-md-table-cell">Larry the Bird</td>
-                                                    <td class="d-none d-sm-table-cell">@twitter</td>
-                                                    <td>@twitter</td>
-                                                    <td>@twitter</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 77</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">17/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-warning ">Process</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /terza riga -->
+                                                <!-- quarta riga -->
                                                 <tr>
-                                                    <th scope="row">1</th>
-                                                    <td class="d-none d-md-table-cell">Mark</td>
-                                                    <td class="d-none d-sm-table-cell">Otto</td>
-                                                    <td>@mdo</td>
-                                                    <td>@twitter</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 78</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">18/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-success">Done</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /quarta riga -->
+                                                <!-- quinta riga -->
                                                 <tr>
-                                                    <th scope="row">2</th>
-                                                    <td class="d-none d-md-table-cell">Jacob</td>
-                                                    <td class="d-none d-sm-table-cell">Thornton</td>
-                                                    <td>@fat</td>
-                                                    <td>@mdo</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 79</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">19/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-danger">Failed</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /quinta riga -->
+                                                <!-- sesta riga -->
                                                 <tr>
-                                                    <th scope="row">3</th>
-                                                    <td class="d-none d-md-table-cell">Larry the Bird</td>
-                                                    <td class="d-none d-sm-table-cell">@twitter</td>
-                                                    <td>@twitter</td>
-                                                    <td>@twitter</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 80</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">20/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-success">Done</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /sesta riga -->
+                                                <!-- settima riga -->
                                                 <tr>
-                                                    <th scope="row">1</th>
-                                                    <td class="d-none d-md-table-cell">Mark</td>
-                                                    <td class="d-none d-sm-table-cell">Otto</td>
-                                                    <td>@mdo</td>
-                                                    <td>@twitter</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 81</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">21/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-danger">Failed</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /settima riga -->
+                                                <!-- ottava riga -->
                                                 <tr>
-                                                    <th scope="row">2</th>
-                                                    <td class="d-none d-md-table-cell">Jacob</td>
-                                                    <td class="d-none d-sm-table-cell">Thornton</td>
-                                                    <td>@fat</td>
-                                                    <td>@mdo</td>
+                                                    <th scope="row">
+                                                        <img src="img/class-avatar.jpg" alt="class avatar" class="ms-class-avatar">
+                                                        <span>Classe 82</span>
+                                                    </th>
+                                                    <td class="d-none d-md-table-cell">22/2/2021</td>
+                                                    <td class="d-none d-sm-table-cell">20%</td>
+                                                    <td>
+                                                        <div class="badge text-bg-success">Done</div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn btn-outline-secondary ms-table-btn"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                 </tr>
+                                                <!-- /ottava riga -->
                                             </tbody>
                                           </table>
                                     </div>

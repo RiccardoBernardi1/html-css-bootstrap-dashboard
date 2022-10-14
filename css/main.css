@@ -16,3 +16,6 @@ main{
 #ms-class th:not(:first-child){
     width: 6.25rem;
 }
+.ms-class-avatar{
+    max-width: 1.875rem;
+}

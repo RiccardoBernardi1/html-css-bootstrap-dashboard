@@ -3,6 +3,9 @@
 .ms-nav-btn:focus{
     border: 0px solid transparent;
 }
+.ms-nav-btn:focus-visible{
+    border: 0px solid transparent;
+}
 .ms-nav-btn{
     color: #5a5858;
 }
@@ -10,4 +13,9 @@
 .ms-badge{
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 1rem;
+}
+/* bottoni tabella classi */
+.ms-table-btn{
+    font-size: .8125rem;
+    max-width: 2.3125rem;
 }
