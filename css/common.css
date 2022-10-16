@@ -1,0 +1,9 @@
+/* COMMON */
+body{
+    max-height: 100vh;
+}
+.ms-container-aside-main{
+     height: calc(100vh - 4.375rem);
+     margin-top: 4.375rem;
+     display: flex;
+ }

@@ -7,26 +7,28 @@ aside{
     text-align: center;
     background-image: url(../img/sidebar-bg.png);
 }
-.ms-aside-list{
-    list-style: none;
-}
-aside a{
-    text-decoration: none;
-    color: inherit;
-}
 aside .container-fluid{
     height: 100%;
 }
 aside .row{
     height: 100%;
 }
+/* lista link aside */
+.ms-aside-list{
+    list-style: none;
+}
 .ms-aside-list i, .ms-admin i{
     min-width: 1.25rem;
+}
+aside a{
+    text-decoration: none;
+    color: inherit;
 }
 .ms-aside-list li, .ms-admin {
     min-width: 1.875rem;
     border-radius: .625rem;
 }
+/* hover link aside */
 .ms-aside-list li:hover, .ms-admin:hover{
     background-color: rgba(255, 255, 255, 0.6);
 }

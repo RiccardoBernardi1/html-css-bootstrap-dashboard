@@ -19,3 +19,12 @@ main{
 .ms-class-avatar{
     max-width: 1.875rem;
 }
+/* sezione TODO */
+#ms-todo input{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%; 
+}   
+#ms-todo li{
+    position: relative;
+}

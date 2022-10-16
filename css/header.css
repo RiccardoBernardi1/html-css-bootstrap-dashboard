@@ -10,12 +10,14 @@ header{
 header .row{
     height: 4.375rem;
 }
+/* logo mobile */
+.ms-logo-mobile{
+    max-height: 4.375rem;
+}
+/* bottone dropdown */
 .dropstart .dropdown-menu[data-bs-popper]{
     right:-10%;
     top: 2.5rem;
-}
-.ms-logo-mobile{
-    max-height: 4.375rem;
 }
 .ms-bell{
     color: #ff8f00;
