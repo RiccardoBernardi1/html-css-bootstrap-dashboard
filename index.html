@@ -381,7 +381,11 @@
                             <section id="active-users">
                                 <div class="card p-2" style="width: 100%;">
                                     <div class="card" style="width: 100%;">
-                                        <img src="img/stats.jpeg" class="card-img-top" alt="Grafico utenti attivi">
+                                        <div>
+                                            <!-- chart -->
+                                            <canvas id="myChart" width="400" height="300"></canvas>
+                                            <!-- /chart -->
+                                        </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Utenti attivi</h5>
                                             <p class="card-text ">Lista degli utenti attivi in piattaforma divisi per mese</p>
@@ -390,6 +394,9 @@
                                             <li class="list-group-item">Gennaio: 1200</li>
                                             <li class="list-group-item">Febbraio: 800</li>
                                             <li class="list-group-item">Marzo: 1500</li>
+                                            <li class="list-group-item">Aprile: 1400</li>
+                                            <li class="list-group-item">Maggio: 950</li>
+                                            <li class="list-group-item">Giugno: 1300</li>
                                         </ul>
                                         <div class="card-body">
                                             <a href="#" class="card-link">Visualizza report approfondito</a>
@@ -426,5 +433,47 @@
         </div>
         <!-- /offcanvas -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!-- /chart.js -->
+        <!-- configurazione chart -->
+        <script>
+            const ctx = document.getElementById('myChart');
+            const myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Gennaio', 'Febbraio', 'Marzo','Aprile', 'Maggio', 'Giugno'],
+                    datasets: [{
+                        label: 'Utenti attivi',
+                        data: [1200, 800, 1500, 1400, 950, 1300],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+        <!-- /configurazione chart -->
     </body>
 </html>
